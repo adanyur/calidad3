@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseño Reporte de incidencia/Evento Adverso Asistencial</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text-title">
+      <h4>F419 REPORTE DE INCIDENCIA/EVENTO ADVERSO - ASISTENCIAL</h4>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <form>
+          <div class="group">
+            <input type="date" class="input-control" placeholder=" " />
+            <label for="" class="label-control">Fecha</label>
+          </div>
+          <div class="group">
+            <select class="input-control input-select">
+              <option value="">Turno</option>
+              <option value="">Mañana</option>
+              <option value="">Tarde</option>
+              <option value="">Noche</option>
+            </select>
+          </div>
+
+          <div class="group">
+            <select class="input-control input-select">
+              <option value="">Centro Obstétrico y Emergencia</option>
+              <option value="">Centro Quirúrgico</option>
+              <option value="">Hospitalización</option>
+              <option value="">Neonatología</option>
+              <option value="">Consultorios Externos / Vacunación</option>
+              <option value="">Otros</option>
+            </select>
+          </div>
+
+          <div class="group">
+            <input type="text" class="input-control" placeholder=" " />
+            <label for="" class="label-control">N° historia</label>
+          </div>
+          <div class="group textarea">
+            <textarea
+              rows="5"
+              cols="10"
+              class="input-control"
+              placeholder=" "
+            ></textarea>
+            <label for="" class="label-control">Descripcion</label>
+          </div>
+
+          <div class="group">
+            <select class="input-control input-select">
+              <option value="">Medico</option>
+              <option value="">Enfermera</option>
+              <option value="">Obstetrica</option>
+              <option value="">Tec. de Enfermeria</option>
+            </select>
+          </div>
+          <div class="group">
+            <input type="text" class="input-control" placeholder=" " />
+            <label for="" class="label-control">Otros</label>
+          </div>
+          <div class="group">
+            <button type="submit" class="button">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
